@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.StatisticsFrame">
+  <grid id="27dc6" binding="statisticsPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="502" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4488807"/>
+      <foreground color="-4488807"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="19a58" class="javax.swing.JButton" binding="backToMainFrameButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5737591"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <text value="Powrót  do strony głównej"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="e82d4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2697514"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <text value="Łączna liczba kilometrów :"/>
+        </properties>
+      </component>
+      <component id="c717c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2697514"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <text value="Średnia liczba przebiegniętych kilometrów na treningu :"/>
+        </properties>
+      </component>
+      <component id="80833" class="javax.swing.JComboBox" binding="timePeriodComboBox">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5737591"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ecd32" class="javax.swing.JTextField" binding="totalDistanceField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5737591"/>
+          <disabledTextColor color="-2697514"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <selectedTextColor color="-2697514"/>
+          <selectionColor color="-12828863"/>
+        </properties>
+      </component>
+      <component id="c4b38" class="javax.swing.JTextField" binding="distanceField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5737591"/>
+          <disabledTextColor color="-2697514"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <selectedTextColor color="-2697514"/>
+          <selectionColor color="-12828863"/>
+        </properties>
+      </component>
+      <component id="a58bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2697514"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <text value="Ilość treningów :"/>
+        </properties>
+      </component>
+      <component id="300e2" class="javax.swing.JTextField" binding="numberOfTrainingsField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7249805"/>
+          <disabledTextColor color="-2697514"/>
+          <font name="Book Antiqua" size="14"/>
+          <foreground color="-2697514"/>
+          <selectedTextColor color="-2697514"/>
+          <selectionColor color="-12828863"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
